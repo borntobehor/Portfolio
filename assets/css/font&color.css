@@ -1,0 +1,125 @@
+/* Robto Condensed*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+/* Oswald */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+/* Kanit */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Noto Serif Khmer */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer:wght@100..900&display=swap');
+/* pixel */
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+/* =============================================================== */
+
+
+@font-face {
+    font-family: halong;
+    src: url(../font/halong-vf.ttf);
+}
+
+@font-face {
+    font-family: despina;
+    src: url(../font/despina.otf);
+}
+
+:root {
+    /* font */
+    --roboto: "Roboto Condensed", serif !important;
+    --oswald: "Oswald", serif !important;
+    --kanit: "Kanit", serif !important;
+    --noto-khmer: "Noto Serif Khmer", serif !important;
+    --halong: halong !important;
+    --despina: despina !important;
+    --pixel: "Pixelify Sans", serif !important;
+
+    --black: #06010E !important;
+    --white: #F8F6FE !important;
+    --background: #e1e1e2 !important;
+    --primary: #6125EF !important;
+    --secondary: #D175F5 !important;
+    --accent: #E254F2 !important;
+}
+
+/* color */
+/* light mode */
+/* [data-bs-theme=light] {
+    --text: #F6F1FE !important;
+    --background: #030109 !important;
+    --primary: #4D10DA !important;
+    --secondary: #660A8A !important;
+    --accent: #9B0DAB !important;
+} */
+/* dark mode */
+/* [data-bs-theme=dark] {
+    --text: #06010E !important;
+    --background: #F8F6FE !important;
+    --primary: #6125EF !important;
+    --secondary: #D175F5 !important;
+    --accent: #E254F2 !important;
+} */
+
+/* text color */
+.color-primary {
+    color: var(--primary) !important;
+}
+
+.color-secondary {
+    color: var(--secondary) !important;
+}
+
+.color-accent {
+    color: var(--accent) !important;
+}
+
+.color-white {
+    color: var(--white) !important;
+}
+
+.color-black {
+    color: var(--black) !important;
+}
+/* background */
+.background-primary {
+    background-color: var(--primary) !important;
+}
+
+.background-secondary {
+    background-color: var(--secondary) !important;
+}
+
+.background-accent {
+    background-color: var(--accent) !important;
+}
+
+.background-white {
+    background-color: var(--white) !important;
+}
+
+.background-black {
+    background-color: var(--black) !important;
+}
+
+.background-glass {
+    background-color: transparent !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
